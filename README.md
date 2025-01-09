@@ -30,9 +30,9 @@
 | docker compose up -d                          | 컨테이너 실행                             |
 | docker compose down                           | 컨테이너 중지                             |
 | docker logs generative-agents                 | 컨테이너 로그 (`-f` 추가 시 실시간 출력)  |
-| docker exec -it generative_agents api         | API 호출 (`-h` 추가 시 사용법 출력)       |
-| docker exec -it generative_agents backend     | 프로젝트의 백엔드 서버 실행               |
-| docker exec -it generative_agents compress    | 저장된 시뮬레이션 압축                    |
+| docker exec -it generative-agents api         | API 호출 (`-h` 추가 시 사용법 출력)       |
+| docker exec -it generative-agents backend     | 프로젝트의 백엔드 서버 실행               |
+| docker exec -it generative-agents compress    | 저장된 시뮬레이션 압축                    |
 
 
 

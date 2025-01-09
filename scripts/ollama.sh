@@ -33,3 +33,4 @@ done
 ACTION "$TITLE"
 INFO "JSON: $JSON"
 curl -sSL "$OLLAMA_HOST:$OLLAMA_PORT/api/$API" -d "$JSON"
+echo
